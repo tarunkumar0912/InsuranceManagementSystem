@@ -1,0 +1,39 @@
+# Maven build output
+target/
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Application logs
+*.log
+logs/
+
+# Uploaded claim documents
+uploads/
+uploads/claim-documents/
+
+# Java compiled files
+*.class
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
